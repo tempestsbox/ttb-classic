@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:zombie\",CustomName:\"Vampire\",CustomNameVisible:0,Tags:[\"found\",\"model\",\"mobOne\",\"mobTwo\"],IsVillager:0,IsBaby:0,CanBreakDoors:1,Attributes:[{Name:generic.movementSpeed,Base:0.42},{Name:generic.attackDamage,Base:8},{Name:generic.knockbackResistance,Base:0.5}],Invulnerable:1,FallFlying:1b,Silent:1,DeathLootTable:\"minecraft:mobs/vampire\",ArmorItems:[{},{},{},{Count:1,id:iron_hoe,Damage:12s,tag:{Unbreakable:1}}],ArmorDropChances:[0.085F,-327.67F,-327.67F,-327.67F]},display:{Name:\"§aSpawn Vampire\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

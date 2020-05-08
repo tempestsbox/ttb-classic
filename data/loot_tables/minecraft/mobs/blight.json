@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_13:1b,display:{Name:\"§aBlight Staff\",Lore:[\"§bCost = 7 Mana\"]},ench:[{id:19,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 13
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

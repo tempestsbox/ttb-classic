@@ -1,0 +1,509 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canFirering:1b,spirit:1b,display:{Name:\"§aFire Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 1\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 4
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canBreakring:1b,spirit:1b,display:{Name:\"§aDestructive Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 3\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 6
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canForm:1b,spirit:1b,display:{Name:\"§aFormation Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 2\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 7
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canLevitate:1b,spirit:1b,display:{Name:\"§aFloat Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 2\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 8
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canGlow:1b,spirit:1b,display:{Name:\"§aSonar Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 1\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 9
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canMinexp:1b,spirit:1b,display:{Name:\"§aEarner's Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 1\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 10
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canMidas:1b,spirit:1b,display:{Name:\"§aMidas Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 3\"]},AttributeModifiers:[],ench:[{id:-1}]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 11
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canNature:1b,spirit:1b,display:{Name:\"§aPassage Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 2\"]},AttributeModifiers:[]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 12
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canGrow:1b,spirit:1b,display:{Name:\"§aFlora Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 2\"]},AttributeModifiers:[]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 13
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,Unbreakable:1b,canDeforest:1b,spirit:1b,display:{Name:\"§aDeforest Gem\",Lore:[\"§9Type = Healing\",\"§9Cost = 2\"]},AttributeModifiers:[]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 5
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 14
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.5,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

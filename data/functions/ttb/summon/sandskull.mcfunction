@@ -1,0 +1,2 @@
+summon skeleton ~ ~ ~ {CustomName:"Sandskull",Tags:["found"],ArmorItems:[{id:leather_boots,Count:1b,tag:{display:{color:2692611}}},{id:leather_leggings,Count:1b,tag:{display:{color:2692611}}},{},{id:iron_hoe,Damage:7,Count:1b,tag:{Unbreakable:1}}],HandItems:[{id:bow,Count:1b},{}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],HandDropChances:[0.085F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:20},{Name:generic.movementSpeed,Base:0.3}],Health:20.0f,DeathLootTable:"minecraft:mobs/sandskull"} 
+tp @s[type=!player] ~ -512 ~

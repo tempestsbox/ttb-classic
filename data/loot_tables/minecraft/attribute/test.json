@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,display:{Name:\"§aLoot Tables Are Active!\",Lore:[\"§bGood Job!\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

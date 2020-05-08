@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:zombie\",CustomName:\"Mage\",CustomNameVisible:0,Tags:[\"found\",\"mobOne\",\"mobTwo\"],IsVillager:0,IsBaby:0,ArmorItems:[{},{},{},{id:iron_hoe,Damage:3,Count:1,tag:{Unbreakable:1}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:150},{Name:zombie.spawnReinforcements,Base:1.0F},{Name:generic.attackDamage,Base:6},{Name:generic.knockbackResistance,Base:1.0}],Health:150.0f,Silent:1,DeathLootTable:\"minecraft:mobs/mage\",ActiveEffects:[{Id:12,Amplifier:0,Duration:200000},{Id:14,Amplifier:0,Duration:200000}]},display:{Name:\"§aSpawn Mage\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

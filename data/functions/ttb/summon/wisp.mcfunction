@@ -1,0 +1,2 @@
+summon bat ~ ~ ~ {CustomName:"Wisp",Tags:["constantTimer","found","canWisp","mobFirework"],Invulnerable:1,Silent:1,DeathLootTable:"mobs/wisp",ActiveEffects:[{Id:14,Amplifier:0,Duration:2000000}]}
+tp @s[type=!player] ~ -512 ~ 

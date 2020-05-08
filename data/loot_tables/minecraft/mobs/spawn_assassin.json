@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:skeleton\",CustomName:\"Assassin\",CustomNameVisible:0,Tags:[\"found\",\"mobOne\",\"mobTwo\"],ArmorItems:[{id:leather_boots,Count:1,tag:{ench:[{id:2,lvl:5}],display:{Name:\"Feather Boots\",color:1184274}}},{id:leather_leggings,Count:1,tag:{display:{color:5526612}}},{id:leather_chestplate,Count:1,tag:{display:{color:5855063}}},{id:skull,Damage:3,Count:1,tag:{SkullOwner:{Id:\"7729788c-f722-49b9-9352-a1097a89925a\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY2NjFjOTI4NGQ2MGUwNDMzZWM5ZDNkMWNmOGEzYzgxYmViODBlYjk2NGRkNjhiNDc4OTVjNWRiOWI0YyJ9fX0=\"}]}}}}],HandItems:[{id:bow,Count:1},{id:iron_sword,Count:1,tag:{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.15,Operation:1,UUIDLeast:174155,UUIDMost:993339,Slot:\"offhand\"},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDLeast:643498,UUIDMost:30196,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.2,Operation:1,UUIDLeast:294643,UUIDMost:640820,Slot:\"offhand\"}],display:{Name:\"Katana\"}}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.0F],Attributes:[{Name:generic.maxHealth,Base:50},{Name:generic.attackDamage,Base:3},{Name:generic.armor,Base:5}],Health:50.0f,Silent:1},display:{Name:\"§aSpawn Assassin\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {CustomName:"Frozen Zombie",Tags:["found"],IsVillager:0,ArmorItems:[{},{},{},{id:skull,Damage:3,Count:1b,tag:{SkullOwner:{Id:"fbfbcee4-2d80-4466-979e-f7444673f4fc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I2NmJmM2UzN2Q3ZTRkYzFmNzI5ODgxOTMzMGVjZWRlZTJhZWJiMWEwZjM2NzkyOGRhNzIzYmRmNzZkYmI5In19fQ=="}]}}}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],Attributes:[{Name:generic.knockbackResistance,Base:1.0}],DeathLootTable:"mobs/frozen_zombie"}
+tp @s[type=!player] ~ -512 ~

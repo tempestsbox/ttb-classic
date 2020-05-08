@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {CustomName:"Wanderer",Tags:["found","mobCurse","wanderer"],IsVillager:0,IsBaby:0,ArmorItems:[{},{},{},{id:iron_hoe,Damage:23s,Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:50},{Name:generic.attackDamage,Base:12}],Health:50.0f,Silent:1,DeathLootTable:"mobs/wanderer",ActiveEffects:[{Id:12,Amplifier:0,Duration:2000000,ShowParticles:0b},{Id:24,Amplifier:0,Duration:200,ShowParticles:0b},{Id:14,Amplifier:0,Duration:200000,ShowParticles:0b}]} 
+tp @s[type=!player] ~ -512 ~

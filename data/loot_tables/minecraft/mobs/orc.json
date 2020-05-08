@@ -1,0 +1,81 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:porkchop",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:speckled_melon",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aOrc Mead\"},CustomPotionEffects:[{Id:1,Amplifier:2,Duration:600},{Id:5,Amplifier:2,Duration:600},{Id:15,Amplifier:0,Duration:200},{Id:19,Amplifier:1,Duration:100},{Id:23,Amplifier:0,Duration:400}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:emerald"
+                }
+            ]
+        }
+    ]
+}

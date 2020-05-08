@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:log2",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:planks",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stick"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leaves2",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

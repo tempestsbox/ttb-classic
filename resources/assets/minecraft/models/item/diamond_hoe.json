@@ -1,0 +1,62 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_hoe"
+    },
+        "overrides": [
+                { "predicate": {"damaged": 0, "damage": 0.00000}, "model": "item/diamond2"},
+                { "predicate": {"damaged": 0, "damage": 0.00064}, "model": "item/metal_alchemy1"},
+                { "predicate": {"damaged": 0, "damage": 0.00128}, "model": "item/metal_alchemy1"},
+                { "predicate": {"damaged": 0, "damage": 0.00192}, "model": "item/amethyst_gem"},
+                { "predicate": {"damaged": 0, "damage": 0.00256}, "model": "item/metal_alchemy3"},
+                { "predicate": {"damaged": 0, "damage": 0.00320}, "model": "item/metal_alchemy4"},
+                { "predicate": {"damaged": 0, "damage": 0.00384}, "model": "item/poison_emitter"},
+                { "predicate": {"damaged": 0, "damage": 0.00448}, "model": "item/poison_emitter1"},
+                { "predicate": {"damaged": 0, "damage": 0.00512}, "model": "item/block_breaker"},
+                { "predicate": {"damaged": 0, "damage": 0.00576}, "model": "item/growth_aura1"},
+                { "predicate": {"damaged": 0, "damage": 0.00640}, "model": "item/sand_sifter1"},
+                { "predicate": {"damaged": 0, "damage": 0.00704}, "model": "item/block_transformer"},
+                { "predicate": {"damaged": 0, "damage": 0.00768}, "model": "item/tempitestorage"},
+                { "predicate": {"damaged": 0, "damage": 0.00832}, "model": "item/spirit_infuser"},
+                { "predicate": {"damaged": 0, "damage": 0.00896}, "model": "item/quarry1"},
+                { "predicate": {"damaged": 0, "damage": 0.00960}, "model": "item/amethyst"},
+                { "predicate": {"damaged": 0, "damage": 0.01024}, "model": "item/macerator"},
+                { "predicate": {"damaged": 0, "damage": 0.01089}, "model": "item/collector"},
+
+                { "predicate": {"damaged": 0, "damage": 0.01153}, "model": "item/exp1"},
+                { "predicate": {"damaged": 0, "damage": 0.01217}, "model": "item/exp2"},
+                { "predicate": {"damaged": 0, "damage": 0.01281}, "model": "item/exp3"},
+                { "predicate": {"damaged": 0, "damage": 0.01345}, "model": "item/exp4"},
+                { "predicate": {"damaged": 0, "damage": 0.01409}, "model": "item/exp5"},
+                { "predicate": {"damaged": 0, "damage": 0.01473}, "model": "item/deployer"},
+                { "predicate": {"damaged": 0, "damage": 0.01537}, "model": "item/deployer"},
+                { "predicate": {"damaged": 0, "damage": 0.01601}, "model": "item/micro_tree_farm"},
+                { "predicate": {"damaged": 0, "damage": 0.01665}, "model": "item/adagio"},
+				{ "predicate": {"damaged": 0, "damage": 0.01729}, "model": "item/purple_tome"},
+				{ "predicate": {"damaged": 0, "damage": 0.01793}, "model": "item/turret"},
+
+				{ "predicate": {"damaged": 0, "damage": 0.01857}, "model": "item/amethyst_gem"},
+				{ "predicate": {"damaged": 0, "damage": 0.01921}, "model": "item/amethyst_ore"},
+				{ "predicate": {"damaged": 0, "damage": 0.01985}, "model": "item/amethyst"},
+
+				{ "predicate": {"damaged": 0, "damage": 0.02049}, "model": "item/vulcaanium_gem"},
+				{ "predicate": {"damaged": 0, "damage": 0.02113}, "model": "item/vulcaanium_ore"},
+				{ "predicate": {"damaged": 0, "damage": 0.02177}, "model": "item/vulcaanium"},
+				
+				{ "predicate": {"damaged": 0, "damage": 0.02241}, "model": "item/tempite"},
+				{ "predicate": {"damaged": 0, "damage": 0.02305}, "model": "item/amethyst_panel"},
+
+
+
+				
+                { "predicate": {"damaged": 0, "damage": 0.06406}, "model": "item/mini_tempest"},
+				
+                { "predicate": {"damaged": 0, "damage": 0.99649}, "model": "item/sign5"},
+                { "predicate": {"damaged": 0, "damage": 0.99712}, "model": "item/sign4"},
+                { "predicate": {"damaged": 0, "damage": 0.99776}, "model": "item/sign3"},
+                { "predicate": {"damaged": 0, "damage": 0.99840}, "model": "item/sign2"},
+                { "predicate": {"damaged": 0, "damage": 0.99904}, "model": "item/sign1"},
+				
+                { "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond2"}
+        ]
+}

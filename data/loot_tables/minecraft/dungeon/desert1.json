@@ -1,0 +1,255 @@
+{
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_10:1b,display:{Name:\"§aHarvest Staff\",Lore:[§bCost = 92 Mana]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_14:1b,display:{Name:\"§aSaturation Staff\",Lore:[§bCost = 10 Mana]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aHeavy Bow\"},ench:[{id:49,lvl:4},{id:48,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.4,
+                                        "max": -0.2
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.4,
+                                        "max": -0.2
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 10,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.15,
+                                        "max": -0.1
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{id:2,lvl:10}],display:{Name:\"§aHeavy Boots\",color:16766254}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_axe",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.2,
+                                        "max": -0.1
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.7,
+                                        "max": -0.6
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 10,
+                                        "max": 14
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aHeavy Axe\"},ench:[{id:48,lvl:4}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:strong_poison\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aTermite Axe\"},ench:[{id:22,lvl:5}],canChop:1b,RepairCost:2}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

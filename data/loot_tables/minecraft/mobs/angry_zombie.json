@@ -1,0 +1,84 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potato"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:emerald"
+                }
+            ]
+        }
+    ]
+}

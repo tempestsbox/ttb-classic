@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:zombie\",CustomName:\"Skitter\",CustomNameVisible:0,Tags:[\"found\",\"model\",\"mobOne\",\"mobThree\"],IsVillager:0,IsBaby:0,CanBreakDoors:1,ArmorItems:[{},{},{},{}],HandItems:[{id:bone,Count:1,tag:{ench:[{id:19,lvl:4}]}},{}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],HandDropChances:[-327.67F,0.085F],Attributes:[{Name:generic.attackDamage,Base:8}],Invulnerable:1,Silent:1,DeathLootTable:\"minecraft:mobs/skitter\",ActiveEffects:[{Id:1,Amplifier:2,Duration:2000000},{Id:14,Amplifier:0,Duration:20000000}]},display:{Name:\"§aSpawn Skitter\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

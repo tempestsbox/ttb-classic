@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "run": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "ttb:spirit_check"
+    }
+}

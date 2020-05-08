@@ -1,0 +1,9 @@
+{
+  "decree": {
+    "category": "master",
+    "sounds": [
+      {"name":"music/decree",
+	  "stream":true}
+    ]
+  }
+}

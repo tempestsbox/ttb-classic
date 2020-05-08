@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gunpowder"
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:flint"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+							}
+						}
+                    ]
+                }
+            ]
+        }
+    ]
+}

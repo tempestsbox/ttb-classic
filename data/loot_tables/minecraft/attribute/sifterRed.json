@@ -1,0 +1,114 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 12,
+                    "name": "minecraft:sand",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bone"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:rotten_flesh"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:glass_bottle"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_nugget"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:wheat_seeds"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:melon_seeds"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:stick"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:string"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:skull"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+							}
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:arrow"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spider_eye"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:flower_pot"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:map"
+                }
+            ]
+        }
+    ]
+}

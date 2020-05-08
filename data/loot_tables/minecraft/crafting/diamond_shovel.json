@@ -1,0 +1,165 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aResponsive Shovel\"},ench:[{id:32,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aResponsive Shovel\"},ench:[{id:32,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSturdy Shovel\"},ench:[{id:34,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSturdy Shovel\"},ench:[{id:34,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aLucky Shovel\"},ench:[{id:35,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_shovel",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aLucky Shovel\"},ench:[{id:35,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

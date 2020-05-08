@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:bat\",CustomName:\"Wisp\",CustomNameVisible:0,Tags:[\"found\",\"mobOne\",\"mobTwo\",\"mobThree\"],Invulnerable:1,Silent:1,Glowing:1b,DeathLootTable:\"minecraft:mobs/wisp\",ActiveEffects:[{Id:14,Amplifier:0,Duration:2000000}]},display:{Name:\"Spawn Wisp\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

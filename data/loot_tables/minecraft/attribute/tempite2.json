@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 4
+			},
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63b,Unbreakable:1b,tempite:1b,display:{Name:\"§aTempite Gel\",Lore:[\"§bPower = 100 Tempite\",\"§3Cannot be touched by human hands.\"]},AttributeModifiers:[]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 35
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{id:-1}],HideFlags:63b,display:{Name:\"§aTempite Sludge\",Lore:[\"§3Sludge too inefficient\",\"§3to power anything.\"]},AttributeModifiers:[]}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

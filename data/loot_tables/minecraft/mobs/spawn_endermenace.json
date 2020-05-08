@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:enderman\",CustomName:Endermenace,CustomNameVisible:0,Attributes:[{Name:generic.maxHealth,Base:60}],carried:79,Tags:[\"ESCsupport\",\"ESCnew\",\"mobOne\",\"mobTwo\"],Health:60.0f},display:{Name:\"§aSpawn Endermenace\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,AttributeModifiers:[],Unbreakable:1,theRune:1b,lazer:1b,display:{Name:\"§aVulcaanium Lazer\",Lore:[\"§bCost = 0tmps\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 28
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

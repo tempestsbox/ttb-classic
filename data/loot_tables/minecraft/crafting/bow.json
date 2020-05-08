@@ -1,0 +1,589 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSturdy Bow\"},ench:[{id:34,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSturdy Bow\"},ench:[{id:34,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aLucky Bow\"},ench:[{id:21,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aLucky Bow\"},ench:[{id:21,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSharp Bow\"},ench:[{id:16,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aStrong Bow\"},ench:[{id:16,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSlaying Bow\"},ench:[{id:17,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSlaying Bow\"},ench:[{id:17,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aPesticide Bow\"},ench:[{id:18,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aPesticide Bow\"},ench:[{id:18,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+								}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aBurning Bow\"},ench:[{id:20,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aBurning Bow\"},ench:[{id:20,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aKinetic Bow\"},ench:[{id:19,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aKinetic Bow\"},ench:[{id:19,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aPiercing Bow\"},ench:[{id:48,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aPiercing Bow\"},ench:[{id:48,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aHeavy Bow\"},ench:[{id:49,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aHeavy Bow\"},ench:[{id:49,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aFire Bow\"},ench:[{id:50,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -16,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aFire Bow\"},ench:[{id:50,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 6
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.3,
+                                        "max": -0.1
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.3,
+                                        "max": -0.1
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63b,Unbreakable:1b,ench:[],gemHealing:1b,gem:1b,display:{Name:\"§aCanister\",Lore:[\"§9Type = Healing\",\"§9Tier = 1\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 6
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackDamage",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -2,
+                                        "max": -1
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63b,Unbreakable:1b,ench:[],gemHealing:1b,gem:1b,display:{Name:\"§aCanister\",Lore:[\"§9Type = Healing\",\"§9Tier = 1\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

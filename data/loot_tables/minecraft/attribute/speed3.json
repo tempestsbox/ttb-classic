@@ -1,0 +1,169 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.6,
+                                        "max": 1.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.6,
+                                        "max": 1.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -6,
+                                        "max": -1
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63b,Unbreakable:1b,ench:[],gemSpeed:1b,gem:1b,display:{Name:\"§aCanister\",Lore:[\"§9Type = Speed\",\"§9Tier = 3\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.6,
+                                        "max": 1.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.6,
+                                        "max": 1.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackDamage",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -6,
+                                        "max": -1
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63b,Unbreakable:1b,ench:[],gemSpeed:1b,gem:1b,display:{Name:\"§aCanister\",Lore:[\"§9Type = Speed\",\"§9Tier = 3\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        }
+                    ]
+                },
+{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_hoe",
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.attackSpeed",
+                                    "attribute": "generic.attackSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.6,
+                                        "max": 1.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.movementSpeed",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": 0.6,
+                                        "max": 1.2
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attackDamage",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -4,
+                                        "max": -1
+                                    },
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.maxHealth",
+                                    "attribute": "generic.maxHealth",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -4,
+                                        "max": -1
+                                    },
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63b,Unbreakable:1b,ench:[],gemSpeed:1b,gem:1b,display:{Name:\"§aCanister\",Lore:[\"§9Type = Speed\",\"§9Tier = 3\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

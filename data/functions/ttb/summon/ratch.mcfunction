@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {CustomName:"Ratch",Tags:["found","ratch"],IsVillager:0,IsBaby:0,ArmorItems:[{},{},{},{id:iron_hoe,Damage:3s,Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:20},{Name:generic.movementSpeed,Base:0.18},{Name:generic.followRange,Base:12},{Name:generic.attackDamage,Base:5},{Name:generic.knockbackResistance,Base:1.0}],Health:20.0f,Silent:1,DeathLootTable:"minecraft:mobs/ratch",ActiveEffects:[{Id:14,Amplifier:0,Duration:200000,ShowParticles:0b}]}
+tp @s[type=!player] ~ -512 ~ 

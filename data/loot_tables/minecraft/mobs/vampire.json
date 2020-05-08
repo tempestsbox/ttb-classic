@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1b,fang:1b,display:{Name:\"Vampire Fang\"}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": 2,
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

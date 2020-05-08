@@ -1,0 +1,13 @@
+1. Make a new creative world in 1.12-pre7. (future versions might be unstable, consult the wiki if unsure)
+2. Exit the world.
+3. Open Roaming/.minecraft/saves (this may be different if you are not using a Windows computer, please google how to get to your saves folder if unsure)
+4. Double click on your world.
+5. DRAG AND DROP THE CONTENTS OF THIS ZIP FOLDER INTO YOUR WORLD SAVE. DO NOT SIMPLY DRAG THE WHOLE FOLDER AT ONCE. MAKE SURE IT'S THE **CONTENTS** OF THE FOLDER.
+6. Open your world.
+
+---
+If you want to get access to all the items, please make a structure called "get_items".
+
+======
+WATCH THE INSTALLATION VIDEO IF YOU ARE HAVING TROUBLE.
+https://www.youtube.com/watch?v=eCDzKoafeg4

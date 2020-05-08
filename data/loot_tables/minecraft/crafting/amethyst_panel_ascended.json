@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_hoe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:63,AttributeModifiers:[],Unbreakable:1,theRune:1b,ench:[{id:-1}],panel2:1b,display:{Name:\"§aAscended Amethyst Sunpad\",Lore:[\"§3Produces Tempite\",\"§3when exposed to the sun.\"]}}"
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 36
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

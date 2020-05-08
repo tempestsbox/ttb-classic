@@ -1,0 +1,309 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_1:1b,display:{Name:\"§aRepulsion Staff\",Lore:[\"§bCost = 7 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_2:1b,display:{Name:\"§aRelativity Staff\",Lore:[\"§bCost = 5 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_3:1b,display:{Name:\"§aExtraction Staff\",Lore:[\"§bCost = 3 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_4:1b,display:{Name:\"§aRefridgerant Staff\",Lore:[\"§bCost = 4 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_5:1b,display:{Name:\"§aInfallable Staff\",Lore:[\"§bCost = 9 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_6:1b,display:{Name:\"§aShatter Staff\",Lore:[\"§bCost = 12 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_7:1b,display:{Name:\"§aTime Staff\",Lore:[\"§bCost = 24 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 7
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_8:1b,display:{Name:\"§aCaptive Staff\",Lore:[\"§bCost = 18 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_9:1b,display:{Name:\"§aEther Staff\",Lore:[\"§bCost = 27 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 9
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1,EFF_0:1b,EFF_15:1b,display:{Name:\"§aSpirit Staff\",Lore:[\"§bCost = 1 Mana\"]},ench:[]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

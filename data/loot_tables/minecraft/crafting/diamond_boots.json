@@ -1,0 +1,745 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aThick Boots\"},ench:[{id:0,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aThick Boots\"},ench:[{id:0,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aCarbon Boots\"},ench:[{id:1,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aCarbon Boots\"},ench:[{id:1,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aImpact Boots\"},ench:[{id:2,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aImpact Boots\"},ench:[{id:2,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aObsidian Boots\"},ench:[{id:3,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aObsidian Boots\"},ench:[{id:3,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aReflective Boots\"},ench:[{id:4,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aReflective Boots\"},ench:[{id:4,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSpiked Boots\"},ench:[{id:7,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSpiked Boots\"},ench:[{id:7,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSwimming Boots\"},ench:[{id:8,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 3
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSwimming Boots\"},ench:[{id:8,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.2,
+                                        "max": 0.2
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 3
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aFrost Boots\"},ench:[{id:9,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aFrost Boots\"},ench:[{id:9,lvl:3}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "feet"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

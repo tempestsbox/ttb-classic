@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:skeleton\",CustomName:\"Blight\",CustomNameVisible:0,Tags:[\"found\",\"model\",\"mobOne\",\"mobThree\"],ArmorItems:[{},{},{},{}],HandItems:[{id:golden_hoe,Damage:31s,Count:1,tag:{Unbreakable:1b,ench:[{id:19,lvl:5}]}},{}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],HandDropChances:[-327.67F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:1000},{Name:generic.attackDamage,Base:8},{Name:generic.knockbackResistance,Base:1.0}],Health:1000.0f,Silent:1,ActiveEffects:[{Id:2,Amplifier:3,Duration:2000000},{Id:14,Amplifier:0,Duration:2000000}],DeathLootTable:\"minecraft:mobs/blight\"},display:{Name:\"§aSpawn Blight\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

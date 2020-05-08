@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:dye",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:Endermite\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

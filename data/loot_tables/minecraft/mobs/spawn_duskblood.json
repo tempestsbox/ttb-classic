@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:zombie\",CustomName:\"Duskblood\",CustomNameVisible:0,Tags:[\"found\",\"model\"],IsVillager:0,IsBaby:0,CanBreakDoors:1,Attributes:[{Name:generic.maxHealth,Base:15},{Name:generic.movementSpeed,Base:0.44},{Name:zombie.spawnReinforcements,Base:1.0F},{Name:generic.attackDamage,Base:9},{Name:generic.knockbackResistance,Base:1.0}],Health:15.0f,Silent:1,DeathLootTable:\"minecraft:mobs/duskblood\",ActiveEffects:[{Id:14,Amplifier:0,Duration:200000000000,ShowParticles:0b}]},display:{Name:\"§aSpawn Duskblood\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

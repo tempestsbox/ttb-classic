@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {CustomName:"Duskblood",Tags:["found","model","duskblood"],IsVillager:0,IsBaby:0,ArmorItems:[{},{},{},{id:iron_hoe,Damage:19s,Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],Attributes:[{Name:generic.movementSpeed,Base:0.4},{Name:generic.attackDamage,Base:7}],Silent:1,DeathLootTable:"mobs/duskblood",ActiveEffects:[{Id:14,Amplifier:0,Duration:200000,ShowParticles:0b}]} 
+tp @s[type=!player] ~ -512 ~

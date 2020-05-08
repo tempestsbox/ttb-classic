@@ -1,0 +1,2 @@
+summon wither_skeleton ~ ~ ~ {CustomName:"Dwindler",Tags:["found"],ArmorItems:[{},{},{},{id:iron_hoe,Damage:18,Count:1b,tag:{Unbreakable:1}}],HandItems:[{id:bow,Count:1b},{}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],HandDropChances:[0.085F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:25},{Name:generic.movementSpeed,Base:0.3}],Health:25.0f,DeathLootTable:"mob/dwindler"}
+tp @s[type=!player] ~ -512 ~

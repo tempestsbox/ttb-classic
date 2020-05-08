@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:zombie\",CustomName:\"Yeti\",CustomNameVisible:0,Tags:[\"found\",\"model\"],IsVillager:0,IsBaby:0,CanBreakDoors:1,HandItems:[{id:golden_hoe,Count:1,Damage:31s,tag:{Unbreakable:1b,ench:[{id:19,lvl:7}]}},{}],HandDropChances:[-327.67F,0.085F],Attributes:[{Name:generic.maxHealth,Base:50},{Name:generic.movementSpeed,Base:0.425},{Name:generic.attackDamage,Base:10},{Name:generic.knockbackResistance,Base:1.0}],Health:50.0f,Silent:1,ActiveEffects:[{Id:8,Amplifier:3,Duration:1200000,ShowParticles:0b},{Id:14,Amplifier:0,Duration:200000000000,ShowParticles:0b}],ArmorItems:[{},{},{},{Count:1,id:iron_hoe,Damage:14s,tag:{Unbreakable:1}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.67F],DeathLootTable:\"minecraft:mobs/yeti\"},display:{Name:\"§aSpawn Yeti\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

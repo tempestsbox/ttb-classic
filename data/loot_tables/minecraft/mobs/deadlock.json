@@ -1,0 +1,66 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aDeadlock Shield\"},ench:[{id:19,lvl:1}],BlockEntityTag:{Base:5,Patterns:[{Pattern:dls,Color:13},{Pattern:flo,Color:9},{Pattern:mr,Color:13}]}}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.knockbackResistance",
+                                    "operation": "addition",
+                                    "amount": 1,
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 4,
+                                        "max": 6
+                                    },
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 4
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

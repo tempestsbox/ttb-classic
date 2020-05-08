@@ -1,0 +1,653 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aThick Helmet\"},ench:[{id:0,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aThick Helmet\"},ench:[{id:0,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aCarbon Helmet\"},ench:[{id:1,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aCarbon Helmet\"},ench:[{id:1,lvl:6}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aObsidian Helmet\"},ench:[{id:3,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aObsidian Helmet\"},ench:[{id:3,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aReflective Helmet\"},ench:[{id:4,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aReflective Helmet\"},ench:[{id:4,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aOxygen Helmet\"},ench:[{id:5,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 3
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aOxygen Helmet\"},ench:[{id:5,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 3
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSea Helmet\"},ench:[{id:6,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 3
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSea Helmet\"},ench:[{id:6,lvl:5}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 1,
+                                        "max": 3
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSpiked Helmet\"},ench:[{id:7,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.attackDamage",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": -5,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§aSpiked Helmet\"},ench:[{id:7,lvl:4}]}"
+                        },
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.movementSpeed",
+                                    "operation": "multiply_total",
+                                    "amount": {
+                                        "min": -0.8,
+                                        "max": 0
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "null",
+                                    "attribute": "generic.armorToughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

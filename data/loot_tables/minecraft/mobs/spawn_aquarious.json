@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"minecraft:zombie\",CustomName:\"Aquarious\",CustomNameVisible:0,Tags:[\"found\",\"mobOne\"],IsVillager:0,IsBaby:0,ArmorItems:[{id:leather_boots,Count:1,tag:{ench:[{id:8,lvl:6}],display:{color:5057290}}},{id:leather_leggings,Count:1,tag:{display:{color:7039557}}},{id:leather_chestplate,Count:1,tag:{display:{color:7039275}}},{id:skull,Damage:3,Count:1,tag:{SkullOwner:{Id:\"642bca19-8f06-4bc0-82c2-b81cd5e4c95f\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ5OTQ0ZmI1ZWI4NjM5YjI4ZTc4ZGMzOGQ1NzlkODhmYjM4MGNhNTc4OWM4MWY1NTM4NDExMmQyMjdlMyJ9fX0=\"}]}}}}],ArmorDropChances:[0.1F,0.085F,0.085F,-327.67F],Attributes:[{Name:generic.maxHealth,Base:100},{Name:generic.movementSpeed,Base:0.38},{Name:generic.attackDamage,Base:6}],Health:100.0f,Silent:1,DeathLootTable:\"minecraft:mobs/aquarious\",ActiveEffects:[{Id:13,Amplifier:0,Duration:200000},{Id:14,Amplifier:0,Duration:200000}]},display:{Name:\"§aSpawn Aquarious\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
