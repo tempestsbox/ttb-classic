@@ -1,0 +1,4 @@
+execute at @s if block ~ ~ ~ air run function ttb:block/crafter/kill
+data merge entity @s {Fire:10s}
+
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:chorus_flower",Count:1b},{Slot:1b,id:"minecraft:chorus_flower",Count:1b},{Slot:2b,id:"minecraft:chorus_flower",Count:1b},{Slot:3b,id:"minecraft:iron_bars",Count:1b},{Slot:4b,id:"minecraft:dragon_breath",Count:1b},{Slot:5b,id:"minecraft:iron_bars",Count:1b},{Slot:6b,id:"minecraft:chorus_flower",Count:1b},{Slot:7b,id:"minecraft:chorus_flower",Count:1b},{Slot:8b,id:"minecraft:chorus_flower",Count:1b}]} run function ttb:block/poison/craft

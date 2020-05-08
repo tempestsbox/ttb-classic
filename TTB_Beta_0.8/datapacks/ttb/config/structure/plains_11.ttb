@@ -1,0 +1,7 @@
+biome: plains
+type: surface
+id: 10
+x_size: 12
+z_size: 13
+base: grass_block
+y_offset: -3

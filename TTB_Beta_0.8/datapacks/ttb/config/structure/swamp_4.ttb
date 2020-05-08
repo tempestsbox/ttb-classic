@@ -1,0 +1,6 @@
+biome: swamp
+type: surface
+id: 4
+x_size: 25
+z_size: 15
+base: mossy_cobblestone

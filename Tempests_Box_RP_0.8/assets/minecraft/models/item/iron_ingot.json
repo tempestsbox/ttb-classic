@@ -1,0 +1,8 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/iron_ingot"
+    },"display": {
+    "thirdperson_righthand": {"rotation": [ 0, 0, 0], "translation": [ 4, -2, 0 ], "scale": [ 0.5, 0.5, 0.5 ]}
+}
+}

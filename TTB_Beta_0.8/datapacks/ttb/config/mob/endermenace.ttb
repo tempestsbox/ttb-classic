@@ -1,0 +1,10 @@
+tag: endermenace
+type: zombie
+name: Endermenace
+ability: 200
+ability: 300
+ability: 10
+health: 60
+can_walk: false
+base_visible: false
+model: iron_hoe=4

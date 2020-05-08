@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {CustomName:"§aEndermenace",HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",tag:{Unbreakable:1b,Damage:4s},Count:1b}],Attributes:[{}],Health:60.0f,DeathLootTable:"minecraft:mob/endermenace",Tags:["endermenace","falseWalk","falseVisible","mob"],Silent:0b}

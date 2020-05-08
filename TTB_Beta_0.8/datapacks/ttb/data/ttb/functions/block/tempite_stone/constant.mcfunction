@@ -1,0 +1,1 @@
+execute as @e[tag=tempite_power,distance=..16] at @s run function ttb:entity/tempite_power

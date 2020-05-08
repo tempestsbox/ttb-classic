@@ -1,0 +1,133 @@
+name: Botane Beamer
+lore: Sensitive
+tag: growth
+model: diamond_hoe=8
+type: hopper
+skull: Id:"26cbe7c2-74de-4f39-87fd-8c8d7a7358b6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExdDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ=="}]}
+sensitive: true
+cooldown: 10
+increase: 5
+cost: 20
+cost_increase: 3
+cost_decrease: 2
+transformed_cost: 55
+transformed_cost_increase: 8
+transformed_cost_decrease: 7
+run: function ttb:check/facing
+run: playsound entity.endermen.teleport voice @a[distance=..16] ~ ~ ~ 2 0.5 1
+run: playsound entity.endermen.teleport voice @a[distance=..16] ~ ~ ~ 2 0.6 1
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=0}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $4.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $4.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $5.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $4.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $5.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $6.0$ {Tags:["doGrowth","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: #
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=0}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $4.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $1.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $2.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $3.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $4.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $5.0$ {Tags:["doGrowth","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: #
+run: execute as @e[tag=doGrowth,distance=..7] at @s run particle totem_of_undying ~ ~1 ~ 0.1 0.1 0.1 0 36
+run: execute as @e[tag=doGrowth,distance=..7] at @s run particle block lime_concrete_powder ~ ~0.5 ~ 0.2 0.2 0.2 0.2 6
+run: execute as @e[tag=doGrowth,distance=..7] at @s run particle block green_concrete_powder ~ ~0.5 ~ 0.2 0.2 0.2 0.2 6
+run: #
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ mossy_cobblestone replace cobblestone
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ mossy_stone_bricks replace stone_bricks
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ mossy_cobblestone_wall replace cobblestone_wall
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace dirt
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace coarse_dirt
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace podzol
+run: execute as @e[tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ red_nether_bricks replace nether_bricks
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=7] replace wheat[age=5]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=7] replace wheat[age=6]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=5] replace wheat[age=3]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=5] replace wheat[age=4]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=3] replace wheat[age=0]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=3] replace wheat[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=3] replace wheat[age=2]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=7] replace pumpkin_stem[age=5]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=7] replace pumpkin_stem[age=6]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=5] replace pumpkin_stem[age=3]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=5] replace pumpkin_stem[age=4]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=3] replace pumpkin_stem[age=0]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=3] replace pumpkin_stem[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=3] replace pumpkin_stem[age=2]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=7] replace melon_stem[age=5]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=7] replace melon_stem[age=6]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=5] replace melon_stem[age=3]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=5] replace melon_stem[age=4]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=3] replace melon_stem[age=0]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=3] replace melon_stem[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=3] replace melon_stem[age=2]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=7] replace melon_stem[age=5]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=7] replace melon_stem[age=6]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=5] replace melon_stem[age=3]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=5] replace melon_stem[age=4]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=3] replace melon_stem[age=0]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=3] replace melon_stem[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=3] replace melon_stem[age=2]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ beetroots[age=3] replace beetroots[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ beetroots[age=3] replace beetroots[age=2]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ beetroots[age=2] replace beetroots[age=0]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=7] replace carrots[age=5]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=7] replace carrots[age=6]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=5] replace carrots[age=3]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=5] replace carrots[age=4]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=3] replace carrots[age=0]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=3] replace carrots[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=3] replace carrots[age=2]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=7] replace potatoes[age=5]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=7] replace potatoes[age=6]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=5] replace potatoes[age=3]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=5] replace potatoes[age=4]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=3] replace potatoes[age=0]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=3] replace potatoes[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=3] replace potatoes[age=2]
+run: #
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ nether_wart[age=3] replace nether_wart[age=1]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ nether_wart[age=3] replace nether_wart[age=2]
+run: execute as @e[tag=type1,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ nether_wart[age=2] replace nether_wart[age=0]
+run: #
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ wheat[age=7] replace wheat
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ pumpkin_stem[age=7] replace pumpkin_stem
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ melon_stem[age=7] replace melon_stem
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ beetroots[age=3] replace beetroots
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ carrots[age=7] replace carrots
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ potatoes[age=7] replace potatoes
+run: execute as @e[tag=type2,tag=doGrowth,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ nether_wart[age=3] replace nether_wart
+run: #
+run: execute as @e[tag=doGrowth,distance=..7] at @s run kill @s

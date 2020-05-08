@@ -1,0 +1,39 @@
+name: Amethyst Sunpad
+lore: Sensitive
+tag: amethyst_sunpad
+model: diamond_hoe=13
+type: hopper
+skull: Id:"26c85743-74bc-4f39-12fd-8c8d7a135fb6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExZDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ=="}]}
+sensitive: true
+tags: "entity","sunpad"
+cooldown: 5
+increase: 2
+cost: 6
+cost_increase: 1
+cost_decrease: 1
+transformed_cost: 12
+cost_increase: 2
+cost_decrease: 1
+activationTime: 3600
+trigger: execute if entity @s[scores={reduced=0}] run scoreboard players set @s triggerTime 0
+trigger: execute if entity @s[scores={reduced=1}] run scoreboard players set @s triggerTime 400
+trigger: execute if entity @s[scores={reduced=2}] run scoreboard players set @s triggerTime 600
+trigger: execute if entity @s[scores={reduced=3}] run scoreboard players set @s triggerTime 800
+trigger: execute if entity @s[scores={reduced=4}] run scoreboard players set @s triggerTime 1000
+trigger: execute if entity @s[scores={reduced=5}] run scoreboard players set @s triggerTime 1200
+trigger: execute store result score @s daylight run time query daytime
+trigger: execute if entity @s[scores={daylight=23000..}] run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Invulnerable:1b,Tags:["sunDetector"]}
+trigger: execute if entity @s[scores={daylight=..13000}] run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Invulnerable:1b,Tags:["sunDetector"]}
+trigger: spreadplayers ~ ~ 0 1 false @e[tag=sunDetector,distance=..1]
+trigger: execute if entity @e[tag=sunDetector,distance=..2] run function ttb:block/check_items
+trigger: execute if entity @e[tag=sunDetector,distance=..2] if entity @s[scores={ascended=0}] run summon bat ~ ~1 ~ {Tags:["amethyst_bat"],Silent:1b,NoGravity:1b,NoAI:1b,DeathLootTable:"ttb:amethyst_sunpad/tempite1"}
+trigger: execute if entity @e[tag=sunDetector,distance=..2] if entity @s[scores={ascended=1}] run summon bat ~ ~1 ~ {Tags:["amethyst_bat"],Silent:1b,NoGravity:1b,NoAI:1b,DeathLootTable:"ttb:amethyst_sunpad/tempite2"}
+trigger: execute if entity @e[tag=sunDetector,distance=..2] if entity @s[scores={ascended=2}] run summon bat ~ ~1 ~ {Tags:["amethyst_bat"],Silent:1b,NoGravity:1b,NoAI:1b,DeathLootTable:"ttb:amethyst_sunpad/tempite3"}
+trigger: execute if entity @e[tag=sunDetector,distance=..2] if entity @s[scores={ascended=3}] run summon bat ~ ~1 ~ {Tags:["amethyst_bat"],Silent:1b,NoGravity:1b,NoAI:1b,DeathLootTable:"ttb:amethyst_sunpad/tempite4"}
+trigger: execute if entity @e[tag=sunDetector,distance=..2] if entity @s[scores={ascended=4}] run summon bat ~ ~1 ~ {Tags:["amethyst_bat"],Silent:1b,NoGravity:1b,NoAI:1b,DeathLootTable:"ttb:amethyst_sunpad/tempite5"}
+trigger: execute if entity @e[tag=sunDetector,distance=..2] if entity @s[scores={ascended=5}] run summon bat ~ ~1 ~ {Tags:["amethyst_bat"],Silent:1b,NoGravity:1b,NoAI:1b,DeathLootTable:"ttb:amethyst_sunpad/tempite6"}
+trigger: execute if entity @e[tag=sunDetector,distance=..2] run particle block purple_stained_glass ~ ~1 ~ 0.25 0.25 0.25 0.2 100
+trigger: execute if entity @e[tag=sunDetector,distance=..2] run particle block magenta_stained_glass ~ ~1 ~ 0.25 0.25 0.25 0.2 100
+trigger: execute if entity @e[tag=sunDetector,distance=..2] run playsound entity.guardian.hurt voice @a[distance=..16] ~ ~ ~ 2 2 1
+trigger: kill @e[tag=sunDetector]
+trigger: kill @e[tag=amethyst_bat]

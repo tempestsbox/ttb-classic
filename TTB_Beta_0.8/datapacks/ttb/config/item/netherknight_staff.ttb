@@ -1,0 +1,10 @@
+tag: netherknight_staff
+type: carrot_on_a_stick
+name: Netherknight Staff
+id: 4
+nbt: ench:[{id:-1}],Unbreakable:1b,HideFlags:63b
+rightclickActivation: true
+leftclickActivation: true
+cooldown: true
+clocking: true
+durability: 100

@@ -1,0 +1,6 @@
+biome: desert
+type: surface
+id: 29
+x_size: 20
+z_size: 16
+base: sandstone

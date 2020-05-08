@@ -1,0 +1,6 @@
+tag: ogre_fist
+type: iron_axe
+name: Ogre Fist
+lore: Very Strong
+id: 1
+nbt: ench:[{id:32,lvl:1}]

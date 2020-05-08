@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/leaves_acacia",
+        "top": "blocks/leaves_acacia",
+        "side": "blocks/leaves_acacia"
+    }
+}

@@ -1,0 +1,18 @@
+name: Tempite Stone
+lore: Sensitive
+tag: tempite_stone
+model: diamond_hoe=3
+type: command_block
+skull: Id:"d6cbf7c2-74bc-4f39-87fd-8c8d7a135fb6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExZDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ=="}]}
+sensitive: true
+run: execute as @s at @s if block $1.0$ purple_stained_glass run summon armor_stand $1.0$ {Tags:["direction","entity","purple_tempite","tempite_power"],NoGravity:1b,Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:10}}]}
+run: execute as @s at @s if block $1.0$ magenta_stained_glass run summon armor_stand $1.0$ {Tags:["direction","entity","magenta_tempite","tempite_power"],NoGravity:1b,Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:10}}]}
+run: execute as @s at @s if block ~ ~1 ~ purple_stained_glass run summon armor_stand ~ ~1 ~ {Tags:["entity","purple_tempite","tempite_power"],NoGravity:1b,Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:10}}]}
+run: execute as @s at @s if block ~ ~1 ~ magenta_stained_glass run summon armor_stand ~ ~1 ~ {Tags:["entity","magenta_tempite","tempite_power"],NoGravity:1b,Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:10}}]}
+run: execute as @s at @s if block ~ ~-1 ~ purple_stained_glass run summon armor_stand ~ ~-1 ~ {Tags:["entity","purple_tempite","tempite_power"],NoGravity:1b,Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:10}}]}
+run: execute as @s at @s if block ~ ~-1 ~ magenta_stained_glass run summon armor_stand ~ ~-1 ~ {Tags:["entity","magenta_tempite","tempite_power"],NoGravity:1b,Small:1,Invisible:1,Invulnerable:1,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:10}}]}
+run: execute as @e[tag=block,distance=..1] at @s run function ttb:block/activate
+run: execute as @s at @s run title @a[distance=..5] actionbar ["",{"score":{"name":"@s","objective":"tempite"},"color":"aqua"},{"text":" remaining.","color":"aqua"}]
+run: particle witch ~ ~ ~ 0.2 0.2 0.2 0.2 100
+cooldown: 10
+cost: 2

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": [ { "model": "spruce_double_slab_normal" } ],
+        "all": [ { "model": "spruce_double_slab_all" } ]
+		}
+}

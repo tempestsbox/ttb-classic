@@ -1,0 +1,31 @@
+execute if entity @s[scores={X=1..6}] run function ttb:structures/set_structure/desert/1
+execute if entity @s[scores={X=7..12}] run function ttb:structures/set_structure/desert/2
+execute if entity @s[scores={X=13..18}] run function ttb:structures/set_structure/desert/3
+execute if entity @s[scores={X=19..24}] run function ttb:structures/set_structure/desert/4
+execute if entity @s[scores={X=25..30}] run function ttb:structures/set_structure/desert/5
+execute if entity @s[scores={X=31..36}] run function ttb:structures/set_structure/desert/6
+execute if entity @s[scores={X=37..42}] run function ttb:structures/set_structure/desert/7
+execute if entity @s[scores={X=43..48}] run function ttb:structures/set_structure/desert/8
+execute if entity @s[scores={X=49..54}] run function ttb:structures/set_structure/desert/9
+execute if entity @s[scores={X=55..60}] run function ttb:structures/set_structure/desert/10
+execute if entity @s[scores={X=61..66}] run function ttb:structures/set_structure/desert/11
+execute if entity @s[scores={X=67..72}] run function ttb:structures/set_structure/desert/12
+execute if entity @s[scores={X=73..78}] run function ttb:structures/set_structure/desert/13
+execute if entity @s[scores={X=79..84}] run function ttb:structures/set_structure/desert/14
+execute if entity @s[scores={X=85..90}] run function ttb:structures/set_structure/desert/15
+execute if entity @s[scores={X=91..96}] run function ttb:structures/set_structure/desert/16
+execute if entity @s[scores={X=97..102}] run function ttb:structures/set_structure/desert/17
+execute if entity @s[scores={X=103..108}] run function ttb:structures/set_structure/desert/18
+execute if entity @s[scores={X=109..114}] run function ttb:structures/set_structure/desert/19
+execute if entity @s[scores={X=115..120}] run function ttb:structures/set_structure/desert/20
+execute if entity @s[scores={X=121..126}] run function ttb:structures/set_structure/desert/21
+execute if entity @s[scores={X=127..132}] run function ttb:structures/set_structure/desert/22
+execute if entity @s[scores={X=133..138}] run function ttb:structures/set_structure/desert/23
+execute if entity @s[scores={X=139..144}] run function ttb:structures/set_structure/desert/24
+execute if entity @s[scores={X=145..150}] run function ttb:structures/set_structure/desert/25
+execute if entity @s[scores={X=151..156}] run function ttb:structures/set_structure/desert/26
+execute if entity @s[scores={X=157..162}] run function ttb:structures/set_structure/desert/27
+execute if entity @s[scores={X=163..168}] run function ttb:structures/set_structure/desert/28
+execute if entity @s[scores={X=169..174}] run function ttb:structures/set_structure/desert/29
+tag @s add complete
+kill @s[type=!player]

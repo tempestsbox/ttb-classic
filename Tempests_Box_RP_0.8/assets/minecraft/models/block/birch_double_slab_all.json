@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/birch_double_slab",
+        "top": "blocks/birch_double_slab",
+        "side": "blocks/birch_double_slab"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:cobblestone_wall",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:iron_bars",
+        "minecraft:ice",
+        "minecraft:glass",
+        "minecraft:ladder",
+        "minecraft:torch",
+        "minecraft:hopper"
+    ]
+}

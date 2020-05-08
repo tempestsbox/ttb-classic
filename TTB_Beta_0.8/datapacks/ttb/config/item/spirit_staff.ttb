@@ -1,0 +1,10 @@
+tag: spirit_staff
+type: carrot_on_a_stick
+name: Spirit Staff
+id: 7
+nbt: ench:[{id:-1}],Unbreakable:1b,HideFlags:63b
+rightclickActivation: true
+leftclickActivation: true
+cooldown: true
+clocking: true
+durability: 24

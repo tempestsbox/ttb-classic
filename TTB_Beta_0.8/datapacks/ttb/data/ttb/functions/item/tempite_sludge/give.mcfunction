@@ -1,0 +1,1 @@
+give @s purple_dye{Damage:0s,item:1b,tempite_sludge:1b,display:{Name:"\"§aTempite Sludge\""},Unbreakable:1b,HideFlags:63b,ench:[{id:-1}]}

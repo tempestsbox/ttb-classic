@@ -1,0 +1,10 @@
+tag: repulsion_staff
+type: carrot_on_a_stick
+name: Repulsion Staff
+id: 2
+nbt: ench:[{id:19,lvl:1}],Unbreakable:1b,HideFlags:63b
+rightclickActivation: true
+leftclickActivation: true
+cooldown: true
+clocking: true
+durability: 100

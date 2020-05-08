@@ -1,0 +1,14 @@
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{captive_staff:1b}}}] run function ttb:item/captive_staff/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{captive_staff:1b}}]}] run function ttb:item/captive_staff/main
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{ether_staff:1b}}}] run function ttb:item/ether_staff/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{ether_staff:1b}}]}] run function ttb:item/ether_staff/main
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{mage_wand:1b}}}] run function ttb:item/mage_wand/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{mage_wand:1b}}]}] run function ttb:item/mage_wand/main
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{netherknight_staff:1b}}}] run function ttb:item/netherknight_staff/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{netherknight_staff:1b}}]}] run function ttb:item/netherknight_staff/main
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{repulsion_staff:1b}}}] run function ttb:item/repulsion_staff/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{repulsion_staff:1b}}]}] run function ttb:item/repulsion_staff/main
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{shatter_staff:1b}}}] run function ttb:item/shatter_staff/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{shatter_staff:1b}}]}] run function ttb:item/shatter_staff/main
+execute at @s[scores={cooldown=..0},nbt={SelectedItem:{tag:{spirit_staff:1b}}}] run function ttb:item/spirit_staff/main
+execute at @s[scores={cooldown=..0},nbt={Inventory:[{Slot:-106b,tag:{spirit_staff:1b}}]}] run function ttb:item/spirit_staff/main

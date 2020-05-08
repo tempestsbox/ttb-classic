@@ -1,0 +1,10 @@
+tag: ogre
+type: zombie
+name: Ogre
+ability: 15
+ability: 15
+ability: -1
+health: 10
+can_walk: true
+base_visible: false
+model: iron_hoe=3

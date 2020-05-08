@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/vulcaanium_block",
+        "top": "blocks/vulcaanium_block",
+        "side": "blocks/vulcaanium_block"
+    }
+}

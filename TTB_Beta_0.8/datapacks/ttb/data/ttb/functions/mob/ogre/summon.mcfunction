@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {CustomName:"§aOgre",HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",tag:{Unbreakable:1b,Damage:3s},Count:1b}],Attributes:[{}],Health:10.0f,DeathLootTable:"minecraft:mob/ogre",Tags:["ogre","trueWalk","falseVisible","mob"],Silent:0b}

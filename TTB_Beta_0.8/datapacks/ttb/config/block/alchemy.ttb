@@ -1,0 +1,89 @@
+name: Alchemy Chamber
+lore: Sensitive
+tag: alchemy
+model: diamond_hoe=5
+type: hopper
+skull: Id:"26cbe7c2-74bc-4f39-87fd-8c8d7a135fb6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExZDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ=="}]}
+sensitive: true
+cooldown: 20
+increase: 10
+cost: 200
+cost_increase: 20
+cost_decrease: 20
+transformed_cost: 250
+transformed_cost_increase: 30
+transformed_cost_decrease: 30
+run: function ttb:check/facing
+run: playsound entity.endermen.teleport voice @a[distance=..16] ~ ~ ~ 2 0.5 1
+run: playsound entity.endermen.teleport voice @a[distance=..16] ~ ~ ~ 2 0.6 1
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=0}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $4.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $4.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $5.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $4.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $5.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $6.0$ {Tags:["doAlchemy","type1"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: #
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=0}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $4.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $1.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $2.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $3.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $4.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $5.0$ {Tags:["doAlchemy","type2"],NoGravity:1b,Invulnerable:1b,Invisible:1b}
+run: #
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run particle totem_of_undying ~ ~0.5 ~ 0 0 0 0 32
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run particle block lime_concrete_powder ~ ~0.5 ~ 0.2 0.2 0.2 0.2 12
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run function ttb:function/random
+run: #
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace ice
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace sandstone
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace smooth_sandstone
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace chiseled_sandstone
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace cut_sandstone
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ stone replace gravel
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ obsidian replace magma_block
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ magma_block replace cobblestone
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ magma_block replace netherrack
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ coal_block replace #minecraft:logs
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ glowstone replace soul_sand
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ sea_lantern replace #ttb:prismarine_blocks
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ anvil replace #minecraft:anvil
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ end_stone_bricks replace end_stone
+run: #
+run: execute as @e[tag=type1,tag=doAlchemy,distance=..7,scores={random=75..}] at @s run fill ~ ~ ~ ~ ~ ~ iron_block replace iron_ore
+run: execute as @e[tag=type1,tag=doAlchemy,distance=..7,scores={random=75..}] at @s run fill ~ ~ ~ ~ ~ ~ gold_block replace gold_ore
+run: #
+run: execute as @e[tag=type2,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore replace emerald_ore
+run: execute as @e[tag=type2,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore replace lapis_ore
+run: execute as @e[tag=type2,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore replace gold_ore
+run: execute as @e[tag=type2,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace redstone_ore
+run: execute as @e[tag=type2,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore replace iron_ore
+run: execute as @e[tag=type2,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace coal_ore
+run: #
+run: execute as @e[tag=type1,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ stone replace iron_ore
+run: execute as @e[tag=type1,tag=doAlchemy,distance=..7] at @s run fill ~ ~ ~ ~ ~ ~ stone replace gold_ore
+run: #
+run: execute as @e[tag=doAlchemy,distance=..7] at @s run kill @s

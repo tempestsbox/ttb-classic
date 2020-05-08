@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{Damage:7s,item:1b,spirit_staff:1b,durability:24s,display:{Name:"\"§aSpirit Staff\"",Lore:["§724/24"]},ench:[{id:-1}],Unbreakable:1b,HideFlags:63b}

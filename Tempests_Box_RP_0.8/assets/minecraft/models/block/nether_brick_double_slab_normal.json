@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "blocks/nether_brick_double_slab_normal",
+        "top": "blocks/nether_brick_double_slab_normal",
+        "side": "blocks/nether_brick_double_slab_normal"
+    }
+}

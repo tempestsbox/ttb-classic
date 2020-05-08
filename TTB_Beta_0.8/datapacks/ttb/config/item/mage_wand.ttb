@@ -1,0 +1,10 @@
+tag: mage_wand
+type: carrot_on_a_stick
+name: Mage Wand
+id: 1
+nbt: ench:[{id:32,lvl:1}],Unbreakable:1b,HideFlags:63b
+rightclickActivation: true
+leftclickActivation: true
+cooldown: true
+clocking: true
+durability: 100

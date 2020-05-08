@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage:4s,item:1b,tempite_gel:1b,display:{Name:\"\\\"§aTempite Gel\\\"\"},Unbreakable:1b,HideFlags:63b,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0,Operation:0,UUIDLeast:659807,UUIDMost:656412}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:purple_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage:0s,item:1b,tempite_sludge:1b,display:{Name:\"\\\"§aTempite Sludge\\\"\"},Unbreakable:1b,HideFlags:63b,ench:[{id:-1}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

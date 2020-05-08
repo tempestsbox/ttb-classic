@@ -1,0 +1,14 @@
+### Block Api by Jragon ###
+execute at @s[tag=crafter] run function ttb:block/crafter/main
+execute at @s[tag=alchemy] run function ttb:block/alchemy/main
+execute at @s[tag=amethyst_ore] run function ttb:block/amethyst_ore/main
+execute at @s[tag=amethyst_sunpad] run function ttb:block/amethyst_sunpad/main
+execute at @s[tag=breaker] run function ttb:block/breaker/main
+execute at @s[tag=collector] run function ttb:block/collector/main
+execute at @s[tag=growth] run function ttb:block/growth/main
+execute at @s[tag=magnetic] run function ttb:block/magnetic/main
+execute at @s[tag=poison] run function ttb:block/poison/main
+execute at @s[tag=tempite_stone] run function ttb:block/tempite_stone/main
+execute at @s[tag=test] run function ttb:block/test/main
+execute at @s[tag=unity] run function ttb:block/unity/main
+execute at @s[tag=vulcaanium_ore] run function ttb:block/vulcaanium_ore/main

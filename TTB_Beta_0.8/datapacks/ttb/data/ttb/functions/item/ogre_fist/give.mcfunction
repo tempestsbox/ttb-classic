@@ -1,0 +1,1 @@
+give @s iron_axe{Damage:1s,item:1b,ogre_fist:1b,display:{Name:"\"§aOgre Fist\"",Lore:["§bVery Strong"]},ench:[{id:32,lvl:1}]}

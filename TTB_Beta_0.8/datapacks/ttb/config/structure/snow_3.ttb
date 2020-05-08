@@ -1,0 +1,7 @@
+biome: snow
+type: surface
+id: 3
+x_size: 17
+z_size: 17
+base: snow_block
+y_offset: -3

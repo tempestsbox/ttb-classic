@@ -1,0 +1,7 @@
+biome: swamp
+type: surface
+id: 1
+x_size: 15
+z_size: 15
+base: grass_block
+y_offset: -6

@@ -1,0 +1,1 @@
+give @s zombie_spawn_egg{EntityTag:{id:"minecraft:zombie",CustomName:"§aBlight",HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",tag:{Unbreakable:1b,Damage:5s},Count:1b}],Attributes:[{}],Health:50.0f,DeathLootTable:"minecraft:mob/blight",Tags:["blight","trueWalk","falseVisible","mob"],Silent:0b},display:{LocName:"§aSpawn Blight"},ench:[{id:-1}]}

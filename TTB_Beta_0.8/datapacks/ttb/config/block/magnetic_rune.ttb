@@ -1,0 +1,49 @@
+name: Magnetic Rune
+lore: ???
+tag: magnetic
+model: diamond_hoe=7
+type: hopper
+skull: Id:"53cbe7c2-73dc-4f39-87fd-8c8d7a135fb6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExdDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ=="}]}
+sensitive: true
+cooldown: 50
+increase: 10
+cost: 10
+cost_increase: 3
+cost_decrease: 1
+transformed_cost: 10
+transformed_cost_increase: 3
+transformed_cost_decrease: 1
+run: #Magnetic Rune Run File by Jragon. Please credit.
+run: #YouTube: https://www.youtube.com/channel/UC_LBXGLs8Sa0opJHFVDVBqA
+run: #Twitter: https://twitter.com/Jragon014
+run: function ttb:check/facing
+run: #
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=0}] at @s if block $1.0$ air run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s if block $1.0$ air run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s if block $2.0$ air run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s if block $1.0$ air run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s if block $2.0$ air run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s if block $3.0$ air run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s if block $1.0$ air run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s if block $2.0$ air run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s if block $3.0$ air run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s if block $4.0$ air run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s if block $1.0$ air run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s if block $2.0$ air run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s if block $3.0$ air run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s if block $4.0$ air run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s if block $5.0$ air run summon armor_stand $5.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s if block $1.0$ air run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s if block $2.0$ air run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s if block $3.0$ air run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s if block $4.0$ air run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s if block $5.0$ air run summon armor_stand $5.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s if block $6.0$ air run summon armor_stand $6.0$ {Invisible:1b,Invulnerable:1b,Tags:["entity","magnetic"]}
+run: #
+run: execute as @s[tag=direction,scores={ascended=0}] at @s positioned ~ ~0.5 ~ run particle flame $1.0$ X0.2X 0.2 15
+run: execute as @s[tag=direction,scores={ascended=1}] at @s positioned ~ ~0.5 ~ run particle flame $2.0$ X0.3X 0.2 20
+run: execute as @s[tag=direction,scores={ascended=2}] at @s positioned ~ ~0.5 ~ run particle flame $3.0$ X0.4X 0.2 25
+run: execute as @s[tag=direction,scores={ascended=3}] at @s positioned ~ ~0.5 ~ run particle flame $4.0$ X0.5X 0.2 30
+run: execute as @s[tag=direction,scores={ascended=4}] at @s positioned ~ ~0.5 ~ run particle flame $5.0$ X0.6X 0.2 35
+run: execute as @s[tag=direction,scores={ascended=5}] at @s positioned ~ ~0.5 ~ run particle flame $6.0$ X0.7X 0.2 40
+run: #

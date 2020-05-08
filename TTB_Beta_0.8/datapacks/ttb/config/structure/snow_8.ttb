@@ -1,0 +1,6 @@
+biome: snow
+type: surface
+id: 8
+x_size: 16
+z_size: 16
+base: snow_block

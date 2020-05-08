@@ -1,0 +1,7 @@
+tag: tempite_gel
+type: iron_sword
+name: Tempite Gel
+id: 4
+nbt: Unbreakable:1b,HideFlags:63b,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0,Operation:0,UUIDLeast:659807,UUIDMost:656412}]
+rightclickActivation: false
+cooldown: false

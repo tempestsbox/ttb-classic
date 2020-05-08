@@ -1,0 +1,1 @@
+give @s husk_spawn_egg{EntityTag:{id:"minecraft:husk",CustomName:"§aMage",HandItems:[{},{}],ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",tag:{Unbreakable:1b,Damage:1s},Count:1b}],Attributes:[{}],Health:80.0f,DeathLootTable:"minecraft:mob/mage",Tags:["mage","falseWalk","falseVisible","mob"],Silent:1b},display:{LocName:"§aSpawn Mage"},ench:[{id:-1}]}

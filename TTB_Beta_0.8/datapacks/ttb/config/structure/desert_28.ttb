@@ -1,0 +1,7 @@
+biome: desert
+type: surface
+id: 28
+x_size: 20
+z_size: 20
+base: sandstone
+y_offset: -3

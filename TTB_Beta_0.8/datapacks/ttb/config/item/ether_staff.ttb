@@ -1,0 +1,11 @@
+tag: ether_staff
+type: carrot_on_a_stick
+name: Ether Staff
+id: 6
+nbt: ench:[{id:-1}],Unbreakable:1b,HideFlags:63b
+rightclickActivation: true
+leftclickActivation: true
+holdActivation: true
+cooldown: true
+clocking: true
+durability: 12

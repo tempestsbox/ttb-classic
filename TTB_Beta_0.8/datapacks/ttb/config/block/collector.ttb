@@ -1,0 +1,75 @@
+name: Collector
+lore: ???
+tag: collector
+model: diamond_hoe=6
+type: hopper
+skull: Id:"26cbe7c2-73dc-4f39-87fd-8c8d7a135fb6",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExZDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ=="}]}
+sensitive: true
+cooldown: 40
+increase: 10
+cost: 50
+cost_increase: 5
+cost_decrease: 5
+transformed_cost: 40
+transformed_cost_increase: 20
+transformed_cost_decrease: 5
+run: #Magnetic Collector Run File by Jragon. Please credit.
+run: #YouTube: https://www.youtube.com/channel/UC_LBXGLs8Sa0opJHFVDVBqA
+run: #Twitter: https://twitter.com/Jragon014
+run: function ttb:check/facing
+run: #
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=0}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level1"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level2"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level2"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level3"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level3"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level3"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $5.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level6"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level6"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level6"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level6"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $5.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level6"]}
+run: execute as @s[tag=!mysterious,tag=direction,scores={ascended=5}] at @s run summon armor_stand $6.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level6"]}
+run: #
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=0}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level1","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level2","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=1}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level2","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level3","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level3","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=2}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level3","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=3}] at @s run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level4","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $1.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $2.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $3.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $4.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5","isMysterious"]}
+run: execute as @s[tag=mysterious,tag=direction,scores={ascended=4}] at @s run summon armor_stand $5.0$ {Invisible:1b,Invulnerable:1b,Tags:["doCollect","level5","isMysterious"]}
+run: #
+run: execute as @e[distance=..7,tag=doCollect,tag=!isMysterious,tag=level1] at @s positioned ~-2 ~-2 ~-2 run teleport @e[type=item,dz=5,dx=5,dy=5] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=!isMysterious,tag=level2] at @s positioned ~-3 ~-3 ~-3 run teleport @e[type=item,dz=7,dx=7,dy=7] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=!isMysterious,tag=level3] at @s positioned ~-4 ~-4 ~-4 run teleport @e[type=item,dz=9,dx=9,dy=9] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=!isMysterious,tag=level4] at @s positioned ~-5 ~-5 ~-5 run teleport @e[type=item,dz=11,dx=11,dy=11] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=!isMysterious,tag=level5] at @s positioned ~-7 ~-7 ~-7 run teleport @e[type=item,dz=13,dx=13,dy=13] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=!isMysterious,tag=level6] at @s positioned ~-9 ~-9 ~-9 run teleport @e[type=item,dz=19,dx=19,dy=19] @e[tag=collector,sort=nearest,limit=1]
+run: #
+run: execute as @e[distance=..7,tag=doCollect,tag=isMysterious,tag=level1] at @s positioned ~-1 0 ~-1 run teleport @e[type=item,dz=3,dx=3,dy=250] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=isMysterious,tag=level2] at @s positioned ~-2 0 ~-2 run teleport @e[type=item,dz=5,dx=5,dy=250] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=isMysterious,tag=level3] at @s positioned ~-3 0 ~-3 run teleport @e[type=item,dz=7,dx=7,dy=250] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=isMysterious,tag=level4] at @s positioned ~-4 0 ~-4 run teleport @e[type=item,dz=9,dx=9,dy=250] @e[tag=collector,sort=nearest,limit=1]
+run: execute as @e[distance=..7,tag=doCollect,tag=isMysterious,tag=level5] at @s positioned ~-5 0 ~-5 run teleport @e[type=item,dz=11,dx=11,dy=250] @e[tag=collector,sort=nearest,limit=1]
+run: #
+run: execute as @e[distance=..7,tag=doCollect] at @s run particle crit ~ ~ ~ 0.2 0.2 0.2 0.2 10 
+run: execute as @e[distance=..7,tag=doCollect] at @s run kill @s
+run: #
+run: teleport @e[type=item,distance=1..2] ~ ~1 ~

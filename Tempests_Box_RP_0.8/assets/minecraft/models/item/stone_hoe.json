@@ -1,0 +1,15 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "items/stone_hoe"
+    },
+        "overrides": [
+                { "predicate": {"damaged": 0, "damage": 0}, "model": "item/stone_hoe"},
+                { "predicate": { "damaged": 0, "damage": 0.00763}, "model": "item/plate/plate_iron"},
+                { "predicate": { "damaged": 0, "damage": 0.01526}, "model": "item/plate/plate_tape"},
+                { "predicate": { "damaged": 0, "damage": 0.0229}, "model": "item/plate/plate_amethyst"},
+                { "predicate": { "damaged": 0, "damage": 0.0305}, "model": "item/plate/plate_skull"},
+                { "predicate": { "damaged": 0, "damage": 0.0381}, "model": "item/plate/plate_blaze"},
+                { "predicate": {"damaged": 1, "damage": 0}, "model": "item/stone_hoe"}
+        ]
+}

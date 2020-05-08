@@ -1,0 +1,8 @@
+tag: blight
+type: zombie
+name: Blight
+ability: 15
+ability: 15
+ability: 5
+health: 50
+model: iron_hoe=5

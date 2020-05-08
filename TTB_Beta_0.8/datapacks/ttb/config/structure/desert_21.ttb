@@ -1,0 +1,6 @@
+biome: desert
+type: surface
+id: 21
+x_size: 17
+z_size: 17
+base: sand

@@ -1,0 +1,10 @@
+tag: mage
+type: husk
+name: Mage
+ability: 15
+ability: 20
+ability: 60
+health: 80
+can_walk: false
+model: iron_hoe=1
+silent: 1

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": [ { "model": "birch_double_slab_normal" } ],
+        "all": [ { "model": "birch_double_slab_all" } ]
+		}
+}

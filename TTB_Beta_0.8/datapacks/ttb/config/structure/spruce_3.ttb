@@ -1,0 +1,6 @@
+biome: spruce
+type: surface
+id: 3
+x_size: 7
+z_size: 7
+y_offset: -1

@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{Damage:4s,item:1b,netherknight_staff:1b,durability:100s,display:{Name:"\"§aNetherknight Staff\"",Lore:["§7100/100"]},ench:[{id:-1}],Unbreakable:1b,HideFlags:63b}
