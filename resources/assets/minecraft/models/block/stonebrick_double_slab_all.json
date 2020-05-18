@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_bottom_top",
-    "textures": {
-        "bottom": "blocks/stonebrick_bottom",
-        "top": "blocks/stonebrick_top",
-        "side": "blocks/stonebrick_double_slab_all"
-    }
-}
